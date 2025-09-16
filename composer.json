@@ -1,6 +1,6 @@
 {
-    "name": "smalot/pdfparser",
-    "description": "Pdf parser library. Can read and extract information from pdf file.",
+    "name": "denisdeejay/pdfparser",
+    "description": "(fork of smalot/pdfparser) Pdf parser library. Can read and extract information from pdf file.",
     "keywords": ["PDF", "text", "parser", "parse", "extract"],
     "type": "library",
     "license": "LGPL-3.0",
@@ -8,12 +8,12 @@
         {
             "name": "Sebastien MALOT",
             "email": "sebastien@malot.fr"
+        },
+        {
+            "name": "Denis METRAL",
+            "email": "denisdeejay@gmail.com"
         }
     ],
-    "support": {
-        "issues": "https://github.com/smalot/pdfparser/issues"
-    },
-    "homepage": "https://www.pdfparser.org",
     "require": {
         "php": ">=7.1",
         "symfony/polyfill-mbstring": "^1.18",
