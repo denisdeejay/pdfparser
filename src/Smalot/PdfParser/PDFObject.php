@@ -668,7 +668,8 @@ class PDFObject
         $result = $this->getTextArray($page);
         $this->addPositionWhitespace = false;
 
-        return implode('', $result).' ';
+        $separator = chr(10);
+        return implode($separator, $result).' ';
     }
 
     /**
